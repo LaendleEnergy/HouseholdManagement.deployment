@@ -9,7 +9,7 @@ services:
     container_name: household_management
     image: ghcr.io/laendleenergy/household_management:latest
     ports:
-      - "8081:9000"
+      - "8082:9000"
     networks:
       - front-tier
       - back-tier
