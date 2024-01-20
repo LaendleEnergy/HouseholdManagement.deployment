@@ -32,6 +32,7 @@ services:
       - POSTGRES_USER=quarkus
       - POSTGRES_PASSWORD=quarkus
       - PGUSER=quarkus
+      - PGPORT=5433
       - POSTGRES_URL="postgres://quarkus:quarkus@postgres:5433/quarkus"
     volumes:
       - ./pgdata:/var/lib/postgresql/data
