@@ -24,7 +24,7 @@ services:
       - QUARKUS_DATASOURCE_USERNAME=quarkus
       - QUARKUS_DATASOURCE_PASSWORD=quarkus
       - QUARKUS_HTTP_PORT=9000
-      - QUARKUS_REDIS_HOSTS=redis://message_broker:6379
+      - QUARKUS_REDIS_HOSTS=redis://redis:6379
       - QUARKUS_REDIS_TIMEOUT=10S
   householdmanagement-database:
     container_name: householdmanagement-database
